@@ -1,0 +1,229 @@
+@font-face {
+    font-family: RubikWetPaint;
+    src: url("../fonts/RubikWetPaint-Regular.ttf");
+}
+
+body {
+    display: none;
+}
+
+#lightbox{
+    background : rgba(0,0,0,.4);
+    width : 100vw;
+    height : 100vh;
+    position : fixed;
+    top : 0px;
+    left : 0px;
+    z-index : 10;
+
+    display : none;
+    justify-content: center;
+    align-items : center;
+}
+
+#lightbox_notification{
+    background : white;
+    width : 600px;
+    height : 400px;
+    border-radius : 10px;
+    padding : 10px;
+    position : relative;
+}
+
+#lightbox_closeBtn{
+    position : absolute;
+    top : 10px;
+    right : 10px;
+    cursor : pointer;
+}
+
+#lightbox_closeBtn i{
+    font-size: 20pt;
+}
+
+#lightbox_content{
+    margin: 10px;
+}
+
+#lightbox_text p{
+    text-align: left;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-5deg);
+        color: #3B71CA;
+    }
+    50% {
+        transform: rotate(5deg);
+        color: #14A44D;
+    }
+    100% {
+        transform: rotate(-5deg);
+        color: #3B71CA;
+    }
+}
+
+
+#cookie{
+    width : 100vw;
+    height : 15vh;
+    background : black;
+    position : fixed;
+    bottom : 0px;
+    left : 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+#cookie_notification {
+    display: flex;
+    align-items: center;
+}
+
+#cookie_message {
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 14pt;
+}
+
+#cookie_closeBtn {
+    cursor: pointer;
+    padding: 10px;
+}
+
+#cookie_closeBtn i {
+    font-size: 14pt;
+}
+
+#logo{
+    font-family: RubikWetPaint;
+    font-size: 36pt;
+}
+
+.customNavColor{
+    background : rgb(200, 200, 255) !important;
+}
+
+p{
+    text-align: justify;
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+.paddingTB50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.paddingT50{
+    padding-top: 50px;
+}
+
+.paddingB50{
+    padding-bottom: 50px;
+}
+
+.paddingL50{
+    padding-left: 50px;
+}
+
+.paddingTB30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paddingB30{
+    padding-bottom: 30px;
+}
+
+.paddingTB25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.paddingT25{
+    padding-top: 25px;
+}
+
+.paddingLR25{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.paddingTB15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.paddingB15{
+    padding-bottom: 15px;
+}
+
+.paddingTB5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.paddingB5{
+    padding-bottom: 5px;
+}
+
+.youtube{
+    width: 100%;
+    min-height: 80vh;
+    border-radius: 5px;
+}
+
+#donateImg{
+    border-radius: 5px;
+}
+
+.amountBtn{
+    width : 120px;
+    margin : 25px;
+}
+
+footer{
+    background : black;
+    min-height : 35vh;
+}
+
+footer i{
+    margin: 25px;
+    font-size: 30pt;
+}
+
+#footerIcon{
+    margin: 15px;
+    width: 75px;
+    height: auto;
+}
+
+#footerLogo{
+    font-family: RubikWetPaint;
+    font-size: 32pt;
+}
+
+.footerText{
+    color: white;
+}
+
+.list-group-item{
+    background : transparent !important;
+}
+
+@media screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 991px)  { 
+
+    .homeCard{
+        height : 350px;
+    }
+    
+}
