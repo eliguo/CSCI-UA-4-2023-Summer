@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MY PERSONAL SITE</title>
+    <link rel="stylesheet" href="CSS/custom.css"/>
+    <style>
+        *{
+            border: solid 1px black;
+        }
+        #mainArea{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .row{
+            display: flex;
+            flex-direction : row;
+        }
+        #myPic{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        #aboutMe{
+            flex: 2;
+            padding: 5px 5px 5px 25px;
+        }
+        #aboutMe p{
+            font-family: caveat;
+            font-size: 20px;
+        }
+        #photography{
+            flex: 1;
+            padding: 5px;
+        }
+        #books{
+            flex: 1;
+            padding: 5px 5px 5px 25px;
+        }
+        ol{
+            font-family: clarine;
+        }
+        blockquote{
+            font-family: lumanosimo;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <!-- Header Section -->
+        <header>
+            <div id="header1">
+                Eli Guo
+            </div>
+            <div id="header2">
+                MS Applied Analytics Student @ Columbia University
+            </div>
+        </header>
+        
+        <!-- Menu Navigation Bar -->
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT</li>
+                </a>
+                <a href="contact.html">
+                    <li>CONTACT</li>
+                </a>
+              
+            </ul>
+        </nav>
+
+        <!-- Main Area -->
+        <div id="mainArea">
+            <section class="row">
+                <div id="myPic">
+                    <img src="images/IMG_2671.jpg" alt="My Picture" width="100%"/>
+                </div>
+                <div id="aboutMe">
+                    <h1>About Me</h1>
+                    <p>
+                        As a graduate student with a strong interest in data science and machine learning, I am passionate about using data to drive innovation and impact. Through my coursework and independent study, I have developed a diverse skill set that includes expertise in programming languages such as R and Python, as well as data analysis, data visualization, and statistical modeling.
+                    </p>
+                    <p>
+                        My strong problem-solving skills and attention to detail have allowed me to excel in my academic pursuits thus far, and I am committed to continuing to expand my knowledge and expertise in data analytics and machine learning. Additionally, I possess strong communication skills, both written and verbal, and am a collaborative team player.
+                    </p>
+                    <p>
+                        As I look ahead to my future career, I am excited about the opportunities to apply my skills and passion for data analytics and machine learning to drive innovation and impact in various industries. I am eager to continue learning and growing in this field and am committed to making a meaningful contribution to the data-driven world.
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div id="photography">
+                    <h1>Photography</h1>
+                    <iframe width="100%" height="80%" src="https://www.youtube.com/embed/cV6Ctaz48EY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="books">
+                    <h1>Books</h1>
+                    <ol>
+                        <li>
+                            <p><cite>Lee, Harper. To Kill a Mockingbird.</cite></p>
+                            <blockquote>
+                                "You never really understand a person until you consider things from his point of view... Until you climb inside of his skin and walk around in it."
+                            </blockquote>
+                        </li>
+                        <li>
+                            <p><cite>Melville, Herman. Moby-Dick</cite></p>
+                            <blockquote>
+                                "Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul...then, I account it high time to get to sea as soon as I can."
+                            </blockquote>
+                        </li>
+                        <li>
+                            <p><cite>García Márquez, Gabriel.</cite></p>
+                            <blockquote>
+                                "It's enough for me to be sure that you and I exist at this moment."
+                            </blockquote>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <section id="map">
+                <h1>Address</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.929841973284!2d-73.96514762360484!3d40.807535471379325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63e96d30dc9%3A0x577933f947e52750!2sColumbia%20University!5e0!3m2!1sen!2sus!4v1689178775711!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section id="contact">
+                <div>
+                    <h1>CONTACT ME</h1>
+                    <p>
+                        116th and Broadway, New York, NY 10027
+                    </p>
+                    <p>
+                        123-456-7890
+                    </p>
+                    <p>
+                        ab1234@columbia.edu
+                    </p>
+                </div>
+                <a href="https://drive.google.com/uc?id=14izKImAzq9Nd9Fi8A873RafrAE72C6bM&export=download" download="Resume">
+                    <input type="button" value="Download Resume" class="download">
+                </a>
+                <div id="socialMedia">
+                    <a href="https://github.com/eliguo" target="_blank">
+                        <img src="images/github.svg"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yilin-eli-guo/" target="_blank">
+                        <img src="images/linkedin.svg"/>
+                    </a>
+                    <a href="https://www.instagram.com/yl_guo/" target="_blank">
+                        <img src="images/instagram.svg"/>
+                    </a>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
