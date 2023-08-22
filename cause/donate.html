@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Blue Bloods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Lightbox -->
+    <div id="lightbox">
+        <div id="lightbox_notification">
+          <div id="lightbox_closeBtn">
+            <i class="bi bi-x-circle"></i>
+          </div>
+          <div id="lightbox_content">
+            <div class="row padding5 d-flex align-items-center">
+              <div class="col-md-6">
+                <img src="images/HorseshoeCrab.jpg" class="img-thumbnail" alt="...">
+              </div>
+              <div class="col-md-6" id="lightbox_text">
+                <h5>The Spring Shorebird and Horseshoe Crab Festival is Here!</h5>
+                <p>Join us from Saturday, May 13 to Sunday, May 21, for special Celebration Days programs occurring around Seven Mile Island and on the Delaware Bayshore that highlight the natural wonder of the spring shorebird migration and horseshoe crab spawning.</p>
+                <a href="https://wetlandsinstitute.org/events/spring-shorebird-and-horseshoe-crab-festival/" target="_blank" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Lightbox ENDS -->
+      <!-- Cookie -->
+      <div id="cookie">
+        <div id="cookie_notification">
+          <div id="cookie_closeBtn"><i class="bi bi-x-circle"></i></div>
+          <div id="cookie_message">We use cookies to ensure you get the best experience on our website. <a href="">Learn more</a>.</div>
+        </div>
+      </div>  
+      <!-- Cookie ENDS -->
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-md-12 noPadding">
+                <!-- Navigation STARTS -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary paddingLR25">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand text-primary" href="index.html" id="logo">BLUE BLOODS</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="learn.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Learn
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="learn.html">All</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="learn.html#endangered">Population Endangered</a></li>
+                              <li><a class="dropdown-item" href="learn.html#livingFossils">Living Fossils</a></li>
+                              <li><a class="dropdown-item" href="learn.html#blueBloods">Blue Bloods</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="donate.html">Donate</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-primary" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+                <!-- Navigation ENDS -->
+            </div>
+        </header>
+        <div class="row paddingT50 paddingLR25">
+            <div class="col-md-6">
+                <!-- Figure component -->
+                <img src="images/HorseshoeCrabMontage.gif" class="img-fluid" alt="Horseshoe crab montage" id="donateImg">
+                <!-- Figure component ENDS -->
+            </div>
+            <div class="col-md-6">
+                <!-- Donation buttons -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="lead">
+                            Support our mission to protect the invaluable horseshoe crab. Every contribution counts. Donate now!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$5</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$10</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$25</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$50</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$100</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary amountBtn">$250</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="basic-url" class="form-label paddingTB5">Enter a custom amount</label>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <button type="button" class="btn btn-primary" id="donateBtn">Contribute</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 paddingTB5">
+                        <div class="btn-group" role="group" aria-label="Recurrent contribution">
+                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="on">
+                            <label class="btn btn-outline-primary" for="btncheck1"></label> 
+                            &nbsp;Make this a recurrent contribution
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 paddingTB5" id="donatePrompts">
+                        <p><small>By selecting one of our suggested donation amounts or opting for your custom contribution, you become the force of change these creatures desperately need. Act now and donate!</small></p>
+                    </div>
+                </div>
+                <!-- Donation buttons END -->
+            </div>
+        </div>
+        <div class="row paddingB50">
+            <div class="col-md-12">
+                  <!-- Newsletter STARTS -->
+                  <div class="newsletter-subscribe mt-5 container">
+                    <div class="container">
+                        <div class="intro">
+                            <h2 class="text-center newsletter">Subscribe to our Newsletter</h2>
+                            <p class="text-center">Stay updated on our mission to protect horseshoe crabs and dive into a world of marine conservation. Subscribe to our newsletter now for the latest news, research, and ways you can make a difference!</p>
+                        </div>
+                        <form class="form-inline" method="post">
+                            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                            <div class="form-group paddingTB15"><button class="btn btn-primary" type="button">Subscribe </button></div>
+                        </form>
+                    </div>
+                  </div>
+                  <!-- Newsletter ENDS -->
+            </div>
+        </div>
+        <footer class="row paddingT50">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-start align-items-center">
+                    <img src="favicon.png" class="float-start" alt="icon" id="footerIcon">
+                    <h1 class="display-6 footerText text-primary paddingT25" id="footerLogo">BLUE BLOODS</h1>
+                </div>
+                <div class="paddingTB15" id="socialMedia">
+                    <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.twitter.com"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.tiktok.com"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <h4 class="footerText paddingB5">Legal</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="">Privacy Policy</a></li>
+                <li class="list-group-item"><a href="">Terms & Conditions</a></li>
+                <li class="list-group-item"><a href="">Cookie Policy</a></li>
+                <li class="list-group-item"><a href="">Refunds & Returns</a></li>
+                <li class="list-group-item"><a href="">Disclaimer</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 paddingL50">
+                <h4 class="footerText paddingB15">Contact Us</h4>
+                <div class="footerText">
+                    <p><b>Phone:</b> <a href="tel:123-456-7890">123-456-7890</a></p>
+                    <p><b>Email:</b> <a href="mailto:contact@bluebloods.org">contact@bluebloods.org</a></p>
+                    <p>
+                        <b>Mailing Address:</b><br>Blue Bloods<br>123 Marine Drive<br>Oceanville, CA 90210
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
